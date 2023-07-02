@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wish{
+            font-size: 50px;
+            text-shadow:2px 2px 5px rgb(248, 244, 244); 
+            justify-content: center;
+            text-align: center;
+            padding-top: 20%;
+             animation:sis 5s 1;
+             
+
+        }
+        .sis{
+            padding-top: 0%;
+            font-size: 100px;
+            text-shadow:2px 2px 5px rgb(248, 244, 244); 
+            justify-content: center;
+            text-align: center;
+            animation:sis 20s 1;
+            display: block;
+        }
+        
+        
+        @keyframes sis 
+        {
+                0%{
+                    
+                    
+                   color: rgb(42, 165, 69);
+                   font-size: 0px;
+                    
+                }
+                100%{
+                    
+                    display: none;
+                
+                    
+                }
+        }
+        audio{
+            display: contents;
+        }
+        
+    </style>
+</head>
+<body style="background-color: black;">
+
+     
+    
+        <div class="wish">WISH YOU HAPPY BIRTHDAY</div>
+        <div class="sis">MUDDU THANGI</div>
+        
+        <audio src="song.mp3" id="my_audio" loop="loop" autoplay></audio>
+        
+</body>
+</html>

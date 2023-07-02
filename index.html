@@ -11,7 +11,8 @@
             justify-content: center;
             text-align: center;
             padding-top: 20%;
-             animation:sis 5s 1
+             animation:sis 5s 1;
+             
 
         }
         .sis{
@@ -22,9 +23,6 @@
             text-align: center;
             animation:sis 20s 1;
             display: block;
-            
-	
-
         }
         
         
@@ -52,12 +50,16 @@
 </head>
 <body style="background-color: black;">
 
-        
-    <audio controls autoplay loop>  
-        <source src="happy-birthday-song.mp3" type="audio/mpeg"></audio>  
+     
+    
         <div class="wish">WISH YOU HAPPY BIRTHDAY</div>
         <div class="sis">MUDDU THANGI</div>
-        <div class="img"></div>
         
+        <audio src="song.mp3" id="my_audio" loop="loop"></audio>
+        <script type="text/javascript">
+          window.onload=function(){
+            document.getElementById("my_audio").play();
+          }
+        </script>
 </body>
 </html>
